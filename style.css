@@ -1,0 +1,101 @@
+
+body {
+background-color: #420000;
+font-weight: 300;
+font-family: 'Raleway', sans-serif;
+text-align: justify;
+text-decoration: none;
+}
+
+h1	{
+color: 	#8B0000;
+font-weight: bold;
+font-size: 50px;
+font-family: 'Liu Jian Mao Cao', cursive;
+letter-spacing: 0px;
+text-transform: uppercase;
+}
+
+
+h3 {
+color: #8B0000;
+font-weight: bold;
+font-family: 'Raleway' sans-serif;
+letter-spacing: 7px;
+font-size: 24px;
+
+
+}
+
+
+
+#logo {
+	border-radius: 7px;
+}
+
+
+
+#logo:hover {
+	opacity: 0.7;
+}
+
+
+.container {
+
+	width: 1300px;
+	text-align: center;
+	padding-left: 30px;
+	
+
+}
+
+
+@media	(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+
+
+}
+
+
+
+#banner {
+	width: 1300px;
+	margin: 10px auto; 
+	text-align: center;
+	padding: 30px ;
+	border-radius: 6px;
+	background-color: #fff6da;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 100px;
+
+
+}
+
+.button {
+	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+	background-color: #445c3c;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	margin: 0 auto;
+	border-radius: 4px;
+	font-size: 100px
+	cursor:pointer;
+	width: 250px;
+	text-decoration-line: none;
+	font-family: 'Long Cang' cursor;
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+}
+
+.button:hover {
+	background-color: #efcfb6;
+}
